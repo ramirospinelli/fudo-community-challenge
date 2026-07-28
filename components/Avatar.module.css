@@ -1,0 +1,16 @@
+.avatar {
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #e8edf2;
+}
+
+.fallback {
+  display: grid;
+  place-items: center;
+  color: white;
+  background: #53677b;
+  font-weight: 800;
+}

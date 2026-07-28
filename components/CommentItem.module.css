@@ -1,0 +1,11 @@
+.commentItem { position: relative; }
+.commentCard { padding: 1.2rem; }
+.commentCard > p { margin: 1rem 0 0; color: #34414d; line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
+.replyCount { margin-left: auto; color: var(--muted); font-size: .8rem; }
+.commentChildren { margin: 1rem 0 0 1.4rem; padding: 0 0 0 1.2rem; list-style: none; border-left: 2px solid #dce3eb; }
+.commentChildren > .commentItem { margin-top: .9rem; }
+
+@media (max-width: 680px) {
+  .commentChildren { margin-left: .45rem; padding-left: .7rem; }
+  .replyCount { width: 100%; margin-left: 0; }
+}

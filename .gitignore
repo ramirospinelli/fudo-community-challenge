@@ -1,0 +1,6 @@
+node_modules
+.pnpm-store
+.atl/
+dist
+.DS_Store
+*.local
