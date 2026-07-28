@@ -2,6 +2,17 @@
 
 Resolución del challenge técnico Senior Front-end: una comunidad de publicaciones con conversaciones anidadas, construida con React, TypeScript y la API provista.
 
+## Documentación
+
+| Documento | Responsabilidad |
+| --- | --- |
+| [`PRD.md`](docs/PRD.md) | Problema, usuarios, objetivos, alcance y recorridos |
+| [`proposal.md`](docs/specs/proposal.md) | Por qué ejecutar este cambio y qué capacidades afecta |
+| [Specs](docs/specs/README.md) | Comportamiento normativo y verificable |
+| [`design.md`](docs/specs/design.md) | Cómo se implementa |
+| [`tasks.md`](docs/specs/tasks.md) | Orden de ejecución |
+| [`technical-decisions.md`](docs/technical-decisions.md) | Decisiones duraderas que trascienden este cambio |
+
 ## Ejecutar localmente
 
 Requiere Node.js 22 o superior.
